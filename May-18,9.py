@@ -1,14 +1,8 @@
-a = int(input("Число = "))
-b = 0
- 
-while a > 0:
-    c = a % 10
-    a = a // 10
- 
-    b = b * 10
-    b = b + c
- 
-    # VN: неверное решение. Ввод: 56789  Результат вашей программы: 98765  Должно быть: 95678
-print(b)
+num = int(input("Число = "))
+last_num = num %10
 
-  
+num = num // 10
+ 
+new_num = last_num * 10000 + num
+ 
+print(new_num)
