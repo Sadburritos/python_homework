@@ -7,6 +7,6 @@ except ValueError:
     message = "Ошибка, это не число"
 else:
     idk = user_num // 10            #Я не знаю как назвать переменнуюпоэтому IDK
-    message = idk % 10
+    message = idk % 10              # VN: ок
     
 print(message)

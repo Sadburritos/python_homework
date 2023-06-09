@@ -5,7 +5,7 @@ try:
 except ValueError:
     message = "Ошибка, это не число"
 else:
-    message = user_num ** 2
+    message = user_num ** 2  # какая-то лишняя операция затесалась
     last_num = user_num % 10
 
     new_num = user_num // 10

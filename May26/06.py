@@ -10,4 +10,5 @@ except ValueError:
     message = "Ошибка, это не число"
 else:
     message = user_num2 // user_num1 
+    # VN:    -user_num2 / user_num1 , так как x вполне может быть дробным. Ну и формула: x = -b/a
 print("x =", message)

@@ -13,3 +13,4 @@ else:
     print("a * b = ", user_num1 * user_num2)
     print("a - b = ", user_num1 - user_num2)
     print("a + b = ", user_num1 + user_num2)
+# VN: а поделить? :) С перехватом ZeroDivisionError, конечно же
