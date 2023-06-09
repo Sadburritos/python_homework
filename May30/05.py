@@ -5,6 +5,7 @@ if currency == "EUR":
     converted_amount = usd * 0.93
     print("Сумма в EUR:", converted_amount)
 elif currency == "UAN":                                                                     #Это же юань?
+                                                                                            # VN: возможно
     converted_amount = usd * 7,13
     print("Сумма в UAN:", converted_amount)
 elif currency == "AZN":
